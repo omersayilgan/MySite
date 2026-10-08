@@ -3,41 +3,394 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Ömer Sayılgan — Control Systems &amp; GNC Engineer</title>
+    <meta name="description" content="Ömer Sayılgan — Control Systems & GNC Engineer in Munich. M.Sc. Aerospace at TU Munich, with industry experience in controller design, embedded code generation, HIL testing and industrial automation.">
+    <meta name="author" content="Ömer Sayılgan">
+    <link rel="canonical" href="https://omersayilgan.com/">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Ömer Sayılgan — Control Systems & GNC Engineer">
+    <meta property="og:description" content="M.Sc. Aerospace at TU Munich. Controller design, MATLAB/Simulink, embedded code generation, HIL testing and industrial automation.">
+    <meta property="og:url" content="https://omersayilgan.com/">
+    <meta property="og:image" content="https://omersayilgan.com/OmerPhoto.jpeg">
+    <meta name="twitter:card" content="summary">
+
+    <meta name="theme-color" content="#0f1b2d">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ömer Sayılgan",
+        "alternateName": "Omer Sayilgan",
+        "jobTitle": "Control Systems & GNC Engineer",
+        "url": "https://omersayilgan.com/",
+        "image": "https://omersayilgan.com/OmerPhoto.jpeg",
+        "email": "mailto:omersayilgan56@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Munich", "addressCountry": "DE" },
+        "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "Technical University of Munich" },
+            { "@type": "CollegeOrUniversity", "name": "Middle East Technical University" }
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/omersayilgan/",
+            "https://github.com/omersayilgan"
+        ]
+    }
+    </script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Ömer Sayılgan</h1>
-            <p>Welcome to my site!</p>
-            <br>
-            <nav>
-                <ul>
-                    <li><a href="cv.html">CV</a></li>
-                    <li><a href="skills_hobbies.html">Skills & Hobbies</a></li>
-                </ul>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container nav-bar">
+            <a class="brand" href="#top" aria-label="Ömer Sayılgan — home">
+                <span class="brand-mark" aria-hidden="true">ÖS</span>
+                <span class="brand-name">Ömer Sayılgan</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav id="site-nav" class="site-nav" aria-label="Main">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#documents">Documents</a>
+                <a class="btn btn-small" href="#contact">Contact</a>
             </nav>
         </div>
     </header>
-    <section id="about">
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="top">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="eyebrow">Munich, Germany · Available from December 2026</p>
+                    <h1>Ömer Sayılgan</h1>
+                    <p class="hero-title">Control Systems &amp; GNC Engineer</p>
+                    <p class="hero-lead">
+                        I design controllers in MATLAB/Simulink, generate code for embedded targets and
+                        bring it up on real hardware. Currently finishing my M.Sc. in Aerospace at the
+                        Technical University of Munich.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn" href="cv.pdf" download="Omer_Sayilgan_CV.pdf">
+                            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+                            Download CV
+                        </a>
+                        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+                    </div>
+                    <ul class="social" aria-label="Profiles">
+                        <li>
+                            <a href="https://www.linkedin.com/in/omersayilgan/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <svg aria-hidden="true" viewBox="0 0 24 24" class="fill"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/omersayilgan" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg aria-hidden="true" viewBox="0 0 24 24" class="fill"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57v-2.02c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.67-.31-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.62-5.48 5.92.42.36.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .3"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:omersayilgan56@gmail.com" aria-label="Email">
+                                <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero-photo">
+                    <picture>
+                        <source srcset="OmerPhoto.webp" type="image/webp">
+                        <img src="OmerPhoto.jpeg" alt="Portrait of Ömer Sayılgan" width="970" height="1296">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title"><span>01</span> About</h2>
+                <div class="about-grid">
+                    <div class="prose">
+                        <p>
+                            I'm a control and GNC engineer with hands-on experience across the full loop:
+                            controller design in MATLAB/Simulink, code generation for embedded targets, and
+                            commissioning on real hardware.
+                        </p>
+                        <p>
+                            At <strong>Roketsan</strong> I designed and validated controllers for a missile seeker gimbal,
+                            from Simulink models through Embedded Coder to Hardware-in-the-Loop testing. At the
+                            Munich climate-tech start-up <strong>Phlair</strong> I worked on the industrial side:
+                            Beckhoff PLC programming in TwinCAT, sensor integration, and the Python and database
+                            infrastructure behind test-bench monitoring.
+                        </p>
+                        <p>
+                            My M.Sc. thesis at TUM covers fault-tolerant control of propulsive spacecraft. I built a
+                            modular Python GNC framework for landing trajectory optimisation and actuator-fault
+                            analysis of a lunar lander.
+                        </p>
+                    </div>
+                    <dl class="facts">
+                        <div><dt>Focus</dt><dd>Control, GNC, model-based design</dd></div>
+                        <div><dt>Education</dt><dd>M.Sc. Aerospace, TU Munich (expected 12/2026)</dd></div>
+                        <div><dt>Based in</dt><dd>Munich, Germany</dd></div>
+                        <div><dt>Available</dt><dd>Full-time from December 2026</dd></div>
+                        <div><dt>Languages</dt><dd>English, German (B1), Turkish</dd></div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section section-alt" id="experience">
+            <div class="container">
+                <h2 class="section-title"><span>02</span> Experience</h2>
+                <ol class="timeline">
+                    <li class="card">
+                        <div class="card-head">
+                            <div>
+                                <h3>Working Student — Mechatronics &amp; Automation</h3>
+                                <p class="org">Phlair GmbH · Munich, Germany</p>
+                            </div>
+                            <p class="date">08/2025 – 05/2026</p>
+                        </div>
+                        <p class="context">Start-up developing a modular direct air capture process based on electrochemical salt splitting.</p>
+                        <ul class="bullets">
+                            <li>Developed TwinCAT 3.1 (Structured Text) control logic for an absorber test bench, from I/O mapping through commissioning.</li>
+                            <li>Built electrical cabinets and wired RS-485 industrial sensors to Beckhoff I/O terminals from circuit diagrams, then calibrated them over serial protocols.</li>
+                            <li>Built an automated PLC-to-InfluxDB data pipeline in Python (PyADS), replacing manual measurement logging.</li>
+                            <li>Designed real-time Grafana/InfluxQL dashboards the team used to monitor test-bench runs live.</li>
+                            <li>Deployed the database, backup and monitoring stack on Docker, Proxmox and Linux, and built a web app for the cell database.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>TwinCAT 3.1</li><li>Beckhoff PLC</li><li>RS-485</li><li>Python</li><li>InfluxDB</li><li>Grafana</li><li>Docker</li><li>Proxmox</li>
+                        </ul>
+                    </li>
+                    <li class="card">
+                        <div class="card-head">
+                            <div>
+                                <h3>Control Systems Engineer</h3>
+                                <p class="org">Roketsan Inc. · Ankara, Turkey</p>
+                            </div>
+                            <p class="date">08/2023 – 05/2024</p>
+                        </div>
+                        <ul class="bullets">
+                            <li>Designed PID and robust controllers for a high-precision missile seeker gimbal, covering pointing and line-of-sight stabilisation across the operating envelope.</li>
+                            <li>Built and validated dynamic models in MATLAB/Simulink, tuning controllers against measured plant response.</li>
+                            <li>Generated Embedded C from Simulink models via Embedded Coder and deployed it onto Xilinx hardware targets.</li>
+                            <li>Ran real-time and Hardware-in-the-Loop (HIL) test campaigns on xPC Target rigs to qualify controller performance before integration.</li>
+                            <li>Developed a MATLAB GUI that automated calibration of resolver bias and electrical angle alignment.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>MATLAB/Simulink</li><li>Embedded Coder</li><li>Robust Control</li><li>HIL</li><li>xPC Target</li><li>Xilinx</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title"><span>03</span> Engineering Projects</h2>
+                <div class="grid-2">
+                    <article class="card">
+                        <p class="kicker">Master's Thesis · TU Munich · 2025–2026</p>
+                        <h3>Fault-Tolerant Control of Propulsive Spacecraft</h3>
+                        <ul class="bullets">
+                            <li>Built a modular Python GNC framework (~23,000 lines) for landing trajectory optimisation and actuator-fault analysis of an Apollo-class lunar lander.</li>
+                            <li>Designed it as a shared core engine (vehicle and actuator models, optimal-control problem formulation, attainable-moment envelopes) reused by nine self-contained study packages.</li>
+                            <li>Ran automated fault-injection and fault-onset campaigns across 16 fault modes and multiple initial-condition regimes, with result tables and figures generated automatically.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Python</li><li>Trajectory Optimisation</li><li>Fault-Tolerant Control</li><li>GNC</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <p class="kicker">Semester Thesis · Institute of Flight System Dynamics, TUM · 2024–2025</p>
+                        <h3>Automated Signal-Integrity Check Toolbox</h3>
+                        <ul class="bullets">
+                            <li>Extended an automated verification toolbox with MATLAB OOP classes and scripted Simulink model generation.</li>
+                            <li>Implemented V-Model-based testing with code-compliance checking (Mrails) and reusable test-harness structures.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>MATLAB OOP</li><li>Simulink</li><li>V-Model</li><li>Test Harnesses</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <h2 class="section-title"><span>04</span> Education</h2>
+                <div class="grid-2">
+                    <article class="card">
+                        <div class="card-head">
+                            <div>
+                                <h3>M.Sc. Aerospace</h3>
+                                <p class="org">Technical University of Munich (TUM)</p>
+                            </div>
+                            <p class="date">10/2023 – 12/2026<br><span class="muted">expected</span></p>
+                        </div>
+                        <p class="grade">Provisional grade <strong>2.3</strong> · 92 ECTS</p>
+                        <dl class="coursework">
+                            <dt>Control &amp; GNC</dt>
+                            <dd>Advanced Control · Nonlinear Control · Optimal Control and Decision Making · Model Reference Adaptive Control · System Identification · Flight Dynamics, Stability and Control</dd>
+                            <dt>Software &amp; Systems</dt>
+                            <dd>Advanced Programming (C++) · Real-Time Systems · Introduction to ROS · MATLAB/Simulink for CAE</dd>
+                            <dt>Labs</dt>
+                            <dd>Flight Control System Lab · Cyber-Physical Systems Lab: Autonomous Applications</dd>
+                        </dl>
+                    </article>
+                    <article class="card">
+                        <div class="card-head">
+                            <div>
+                                <h3>B.Sc. Mechanical Engineering</h3>
+                                <p class="org">Middle East Technical University (METU), Ankara</p>
+                            </div>
+                            <p class="date">2017 – 2023</p>
+                        </div>
+                        <p class="grade">GPA <strong>3.33 / 4.0</strong> · German equivalent 1.7 (“gut”)</p>
+                        <ul class="bullets">
+                            <li>Top 10–15% of the department.</li>
+                            <li>Minor in Mechatronics (Robotics, Computer Science, Logic Design).</li>
+                            <li>Multiple “High Honor” and “Honor” placements.</li>
+                            <li>Relevant coursework: Control Systems, Feedback Systems, Mechatronic Design, Embedded Systems Development.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section-title"><span>05</span> Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <h3>Control &amp; GNC</h3>
+                        <ul class="tags">
+                            <li>PID</li><li>Robust Control</li><li>Nonlinear Control</li><li>Adaptive (MRAC)</li><li>LQR / MPC</li><li>Lyapunov Methods</li><li>Fault-Tolerant Control</li><li>System Identification</li><li>Trajectory Optimisation</li><li>6-DOF Flight Dynamics</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Modelling &amp; Test</h3>
+                        <ul class="tags">
+                            <li>MATLAB</li><li>Simulink</li><li>Embedded Coder</li><li>Model-Based Design</li><li>SIL / HIL Testing</li><li>xPC Target</li><li>V-Model Test Harnesses</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Programming</h3>
+                        <ul class="tags">
+                            <li>Python (NumPy, SciPy, PyADS)</li><li>C</li><li>Embedded C</li><li>C++</li><li>MATLAB OOP</li><li>Structured Text</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Industrial Automation</h3>
+                        <ul class="tags">
+                            <li>TwinCAT 3.1</li><li>Beckhoff PLC</li><li>EtherCAT</li><li>RS-485 &amp; Serial Protocols</li><li>Sensor Integration &amp; Calibration</li><li>Test-Bench Commissioning</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Tools &amp; Infrastructure</h3>
+                        <ul class="tags">
+                            <li>Git</li><li>Linux (Ubuntu)</li><li>Docker</li><li>Proxmox</li><li>InfluxDB</li><li>Grafana</li><li>ROS / ROS 2</li>
+                        </ul>
+                    </div>
+                    <div class="skill-group">
+                        <h3>Languages</h3>
+                        <ul class="lang-list">
+                            <li><span>English</span><span class="muted">Full professional</span></li>
+                            <li><span>German</span><span class="muted">B1</span></li>
+                            <li><span>Turkish</span><span class="muted">Native</span></li>
+                        </ul>
+                        <h3 class="sub">Outside work</h3>
+                        <p class="muted">Guitar, singing, martial arts, travelling.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documents -->
+        <section class="section section-alt" id="documents">
+            <div class="container">
+                <h2 class="section-title"><span>06</span> Documents</h2>
+                <div class="docs">
+                    <a class="doc" href="cv.pdf" download="Omer_Sayilgan_CV.pdf">
+                        <span class="doc-icon" aria-hidden="true">PDF</span>
+                        <span class="doc-text"><strong>Curriculum Vitae</strong><span class="muted">2 pages · English</span></span>
+                    </a>
+                    <a class="doc" href="transcript.pdf" download="Omer_Sayilgan_TUM_Grade_Report.pdf">
+                        <span class="doc-icon" aria-hidden="true">PDF</span>
+                        <span class="doc-text"><strong>TUM Grade Report</strong><span class="muted">M.Sc. Aerospace · August 2026</span></span>
+                    </a>
+                    <a class="doc" href="transcript-metu.pdf" download="Omer_Sayilgan_METU_Transcript.pdf">
+                        <span class="doc-icon" aria-hidden="true">PDF</span>
+                        <span class="doc-text"><strong>METU Transcript</strong><span class="muted">B.Sc. Mechanical Engineering</span></span>
+                    </a>
+                    <a class="doc" href="reference-letter-phlair.pdf" download="Omer_Sayilgan_Reference_Phlair.pdf">
+                        <span class="doc-icon" aria-hidden="true">PDF</span>
+                        <span class="doc-text"><strong>Reference Letter</strong><span class="muted">Phlair GmbH · April 2026</span></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container contact">
+                <h2 class="section-title"><span>07</span> Contact</h2>
+                <p class="contact-lead">
+                    I'm looking for full-time roles in control systems, GNC and model-based design from December 2026.
+                    The quickest way to reach me is by email.
+                </p>
+                <a class="btn btn-large" href="mailto:omersayilgan56@gmail.com">omersayilgan56@gmail.com</a>
+                <p class="contact-links">
+                    <a href="https://www.linkedin.com/in/omersayilgan/" target="_blank" rel="noopener">LinkedIn</a>
+                    <span aria-hidden="true">·</span>
+                    <a href="https://github.com/omersayilgan" target="_blank" rel="noopener">GitHub</a>
+                    <span aria-hidden="true">·</span>
+                    <span>Munich, Germany</span>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <h2>About Me</h2>
-            <br>
-            <img src="OmerPhoto.webp" alt="Your Photo" height="500">
-            <br>
-            <br>
-            <br>
-            <p>My name is Ömer, and I was born in 1999. I graduated from METU with a degree in Mechanical Engineering, and I also completed a minor in Mechatronics Engineering. During my time at METU, I expanded my knowledge by taking courses in both Computer Engineering and Electrical Engineering.</p>
-            <p>Although my background is in Mechanical Engineering, I have a strong passion for electronics and coding. My interest in these areas led me to work in the Turkish Defence Industry for 9 months, where I focused on Control Engineering. Throughout this experience, I extensively used MATLAB/Simulink, and I am now highly proficient in these tools. </p>
-            <p>I learned German at the B1 level at the Goethe-Institut Ankara 6 years ago. Therefore, I thought it would be a good idea to study in Germany. Additionally, I have always been fascinated by aircraft, which is why I am currently pursuing my MSc in Aerospace at TUM.</p>
-        </div>
-    </section>
-    
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Ömer Sayılgan. All rights reserved.</p>
+            <p>&copy; <span id="year">2026</span> Ömer Sayılgan</p>
+            <a href="#top">Back to top ↑</a>
         </div>
     </footer>
+
+    <script>
+        (function () {
+            var toggle = document.querySelector('.nav-toggle');
+            var nav = document.getElementById('site-nav');
+            function setOpen(open) {
+                toggle.setAttribute('aria-expanded', String(open));
+                toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+                nav.classList.toggle('open', open);
+            }
+            toggle.addEventListener('click', function () {
+                setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+            });
+            nav.addEventListener('click', function (e) {
+                if (e.target.tagName === 'A') setOpen(false);
+            });
+            document.getElementById('year').textContent = new Date().getFullYear();
+        })();
+    </script>
 </body>
 </html>
